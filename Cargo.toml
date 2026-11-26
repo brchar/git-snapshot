@@ -1,0 +1,11 @@
+[package]
+name = "git-snapshot"
+version = "0.1.0"
+edition = "2024"
+description = "Magit-style non-destructive Git snapshots stored in refs/wip/<name>"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+jiff = "0.2"
+snafu = "0.8"
+tempfile = "3"
